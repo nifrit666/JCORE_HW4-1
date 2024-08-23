@@ -1,11 +1,10 @@
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import org.example.exceptions.CustomerNotExistException;
-import org.example.exceptions.ProductNotExistException;
-import org.example.exceptions.QuantityException;
+import exceptions.CustomerNotExistException;
+import exceptions.ProductNotExistException;
+import exceptions.QuantityException;
 
-import javax.management.ObjectName;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;

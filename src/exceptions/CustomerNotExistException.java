@@ -1,3 +1,5 @@
+package exceptions;
+
 public class CustomerNotExistException extends Exception {
     public CustomerNotExistException() {
 

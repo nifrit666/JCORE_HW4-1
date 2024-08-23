@@ -1,7 +1,7 @@
 import lombok.Data;
-import org.example.exceptions.CustomerNotExistException;
-import org.example.exceptions.ProductNotExistException;
-import org.example.exceptions.QuantityException;
+import exceptions.CustomerNotExistException;
+import exceptions.ProductNotExistException;
+import exceptions.QuantityException;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,3 +1,5 @@
+package exceptions;
+
 public class QuantityException extends Exception{
     private String customer;
     private String product;

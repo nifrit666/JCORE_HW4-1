@@ -1,3 +1,4 @@
+package exceptions;
 
 public class ProductNotExistException extends Exception{
     public ProductNotExistException() {
